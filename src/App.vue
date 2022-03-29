@@ -1,18 +1,16 @@
 <!--
  * @Author: yejinliang
  * @Date: 2022-03-23 15:09:05
- * @LastEditTime: 2022-03-29 14:55:53
+ * @LastEditTime: 2022-03-29 16:38:04
  * @LastEditors: yejinliang
  * @Description: 
 -->
 <script setup lang="ts">
-import LightBall from './components/threeComponents/LightBall.vue'
-import CustomBar from './components/echartsComponents/CustomBar.vue'
-import CustomBar1 from './components/echartsComponents/CustomBar1.vue'
+import baseVue from './components/canvas/base.vue';
 </script>
 
 <template>
-  <CustomBar></CustomBar>
+<baseVue></baseVue>
 </template>
 
 <style>
